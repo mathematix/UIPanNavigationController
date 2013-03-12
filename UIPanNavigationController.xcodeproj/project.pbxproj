@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAD4D8BA16EF8626009EB199 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD4D8B916EF8626009EB199 /* UIKit.framework */; };
+		BAD4D8BC16EF8626009EB199 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD4D8BB16EF8626009EB199 /* Foundation.framework */; };
+		BAD4D8BE16EF8626009EB199 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD4D8BD16EF8626009EB199 /* CoreGraphics.framework */; };
+		BAD4D8C416EF8626009EB199 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAD4D8C216EF8626009EB199 /* InfoPlist.strings */; };
+		BAD4D8C616EF8626009EB199 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD4D8C516EF8626009EB199 /* main.m */; };
+		BAD4D8CC16EF8626009EB199 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD4D8CB16EF8626009EB199 /* Default.png */; };
+		BAD4D8CE16EF8626009EB199 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD4D8CD16EF8626009EB199 /* Default@2x.png */; };
+		BAD4D8D016EF8626009EB199 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD4D8CF16EF8626009EB199 /* Default-568h@2x.png */; };
+		BAD4D8D916EF8666009EB199 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD4D8D816EF8666009EB199 /* AppDelegate.m */; };
+		BAD4D8E116EF8687009EB199 /* NSObject+AssociativeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD4D8DC16EF8687009EB199 /* NSObject+AssociativeObject.m */; };
+		BAD4D8E216EF8687009EB199 /* UIImage+GenerateFromView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD4D8DE16EF8687009EB199 /* UIImage+GenerateFromView.m */; };
+		BAD4D8E316EF8687009EB199 /* UIPanNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD4D8E016EF8687009EB199 /* UIPanNavigationController.m */; };
+		BAD4D8E616EF86C7009EB199 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD4D8E516EF86C7009EB199 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BAD4D8B616EF8626009EB199 /* UIPanNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIPanNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD4D8B916EF8626009EB199 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BAD4D8BB16EF8626009EB199 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BAD4D8BD16EF8626009EB199 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BAD4D8C116EF8626009EB199 /* UIPanNavigationController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIPanNavigationController-Info.plist"; sourceTree = "<group>"; };
+		BAD4D8C316EF8626009EB199 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BAD4D8C516EF8626009EB199 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAD4D8C716EF8626009EB199 /* UIPanNavigationController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIPanNavigationController-Prefix.pch"; sourceTree = "<group>"; };
+		BAD4D8CB16EF8626009EB199 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BAD4D8CD16EF8626009EB199 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BAD4D8CF16EF8626009EB199 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BAD4D8D716EF8666009EB199 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = UIPanNavigationController/Demo/AppDelegate.h; sourceTree = "<group>"; };
+		BAD4D8D816EF8666009EB199 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = UIPanNavigationController/Demo/AppDelegate.m; sourceTree = "<group>"; };
+		BAD4D8DA16EF8687009EB199 /* CommonDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonDef.h; path = UIPanNavigationController/CommonDef.h; sourceTree = "<group>"; };
+		BAD4D8DB16EF8687009EB199 /* NSObject+AssociativeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+AssociativeObject.h"; path = "UIPanNavigationController/NSObject+AssociativeObject.h"; sourceTree = "<group>"; };
+		BAD4D8DC16EF8687009EB199 /* NSObject+AssociativeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+AssociativeObject.m"; path = "UIPanNavigationController/NSObject+AssociativeObject.m"; sourceTree = "<group>"; };
+		BAD4D8DD16EF8687009EB199 /* UIImage+GenerateFromView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+GenerateFromView.h"; path = "UIPanNavigationController/UIImage+GenerateFromView.h"; sourceTree = "<group>"; };
+		BAD4D8DE16EF8687009EB199 /* UIImage+GenerateFromView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GenerateFromView.m"; path = "UIPanNavigationController/UIImage+GenerateFromView.m"; sourceTree = "<group>"; };
+		BAD4D8DF16EF8687009EB199 /* UIPanNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIPanNavigationController.h; path = UIPanNavigationController/UIPanNavigationController.h; sourceTree = "<group>"; };
+		BAD4D8E016EF8687009EB199 /* UIPanNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIPanNavigationController.m; path = UIPanNavigationController/UIPanNavigationController.m; sourceTree = "<group>"; };
+		BAD4D8E416EF86C7009EB199 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = UIPanNavigationController/Demo/ViewController.h; sourceTree = "<group>"; };
+		BAD4D8E516EF86C7009EB199 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = UIPanNavigationController/Demo/ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAD4D8B316EF8626009EB199 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD4D8BA16EF8626009EB199 /* UIKit.framework in Frameworks */,
+				BAD4D8BC16EF8626009EB199 /* Foundation.framework in Frameworks */,
+				BAD4D8BE16EF8626009EB199 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAD4D8AD16EF8626009EB199 = {
+			isa = PBXGroup;
+			children = (
+				BAD4D8D616EF863C009EB199 /* Demo */,
+				BAD4D8BF16EF8626009EB199 /* UIPanNavigationController */,
+				BAD4D8B816EF8626009EB199 /* Frameworks */,
+				BAD4D8B716EF8626009EB199 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAD4D8B716EF8626009EB199 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAD4D8B616EF8626009EB199 /* UIPanNavigationController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAD4D8B816EF8626009EB199 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAD4D8B916EF8626009EB199 /* UIKit.framework */,
+				BAD4D8BB16EF8626009EB199 /* Foundation.framework */,
+				BAD4D8BD16EF8626009EB199 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAD4D8BF16EF8626009EB199 /* UIPanNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				BAD4D8DA16EF8687009EB199 /* CommonDef.h */,
+				BAD4D8DB16EF8687009EB199 /* NSObject+AssociativeObject.h */,
+				BAD4D8DC16EF8687009EB199 /* NSObject+AssociativeObject.m */,
+				BAD4D8DD16EF8687009EB199 /* UIImage+GenerateFromView.h */,
+				BAD4D8DE16EF8687009EB199 /* UIImage+GenerateFromView.m */,
+				BAD4D8DF16EF8687009EB199 /* UIPanNavigationController.h */,
+				BAD4D8E016EF8687009EB199 /* UIPanNavigationController.m */,
+				BAD4D8C016EF8626009EB199 /* Supporting Files */,
+			);
+			path = UIPanNavigationController;
+			sourceTree = "<group>";
+		};
+		BAD4D8C016EF8626009EB199 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAD4D8C116EF8626009EB199 /* UIPanNavigationController-Info.plist */,
+				BAD4D8C216EF8626009EB199 /* InfoPlist.strings */,
+				BAD4D8C516EF8626009EB199 /* main.m */,
+				BAD4D8C716EF8626009EB199 /* UIPanNavigationController-Prefix.pch */,
+				BAD4D8CB16EF8626009EB199 /* Default.png */,
+				BAD4D8CD16EF8626009EB199 /* Default@2x.png */,
+				BAD4D8CF16EF8626009EB199 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAD4D8D616EF863C009EB199 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				BAD4D8D716EF8666009EB199 /* AppDelegate.h */,
+				BAD4D8D816EF8666009EB199 /* AppDelegate.m */,
+				BAD4D8E416EF86C7009EB199 /* ViewController.h */,
+				BAD4D8E516EF86C7009EB199 /* ViewController.m */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAD4D8B516EF8626009EB199 /* UIPanNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAD4D8D316EF8626009EB199 /* Build configuration list for PBXNativeTarget "UIPanNavigationController" */;
+			buildPhases = (
+				BAD4D8B216EF8626009EB199 /* Sources */,
+				BAD4D8B316EF8626009EB199 /* Frameworks */,
+				BAD4D8B416EF8626009EB199 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIPanNavigationController;
+			productName = UIPanNavigationController;
+			productReference = BAD4D8B616EF8626009EB199 /* UIPanNavigationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAD4D8AE16EF8626009EB199 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = panda;
+			};
+			buildConfigurationList = BAD4D8B116EF8626009EB199 /* Build configuration list for PBXProject "UIPanNavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BAD4D8AD16EF8626009EB199;
+			productRefGroup = BAD4D8B716EF8626009EB199 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAD4D8B516EF8626009EB199 /* UIPanNavigationController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAD4D8B416EF8626009EB199 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD4D8C416EF8626009EB199 /* InfoPlist.strings in Resources */,
+				BAD4D8CC16EF8626009EB199 /* Default.png in Resources */,
+				BAD4D8CE16EF8626009EB199 /* Default@2x.png in Resources */,
+				BAD4D8D016EF8626009EB199 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAD4D8B216EF8626009EB199 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD4D8C616EF8626009EB199 /* main.m in Sources */,
+				BAD4D8D916EF8666009EB199 /* AppDelegate.m in Sources */,
+				BAD4D8E116EF8687009EB199 /* NSObject+AssociativeObject.m in Sources */,
+				BAD4D8E216EF8687009EB199 /* UIImage+GenerateFromView.m in Sources */,
+				BAD4D8E316EF8687009EB199 /* UIPanNavigationController.m in Sources */,
+				BAD4D8E616EF86C7009EB199 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BAD4D8C216EF8626009EB199 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAD4D8C316EF8626009EB199 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAD4D8D116EF8626009EB199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAD4D8D216EF8626009EB199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAD4D8D416EF8626009EB199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIPanNavigationController/UIPanNavigationController-Prefix.pch";
+				INFOPLIST_FILE = "UIPanNavigationController/UIPanNavigationController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BAD4D8D516EF8626009EB199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIPanNavigationController/UIPanNavigationController-Prefix.pch";
+				INFOPLIST_FILE = "UIPanNavigationController/UIPanNavigationController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAD4D8B116EF8626009EB199 /* Build configuration list for PBXProject "UIPanNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD4D8D116EF8626009EB199 /* Debug */,
+				BAD4D8D216EF8626009EB199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAD4D8D316EF8626009EB199 /* Build configuration list for PBXNativeTarget "UIPanNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD4D8D416EF8626009EB199 /* Debug */,
+				BAD4D8D516EF8626009EB199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAD4D8AE16EF8626009EB199 /* Project object */;
+}
