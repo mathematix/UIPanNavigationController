@@ -127,7 +127,13 @@ static NSString *const snapShotViewKey = @"snapShotViewKey";
     if ([self.viewControllers count]> 0 && [viewController respondsToSelector:@selector(isSupportPanPop)]) {
         BOOL returnValue = ((BOOL (*)(id, SEL))objc_msgSend)(viewController, @selector(isSupportPanPop));
         if (returnValue) {
-            UIImage *image = [UIImage imageFromUIView:self.view];
+            UIImage *image = nil;
+			if (self.tabBarController != nil) {
+				image = [UIImage imageFromUIView:self.tabBarController.view];
+			}
+			else {
+				image = [UIImage imageFromUIView:self.view];
+            }
             //every controller should maintain its own snapshot
             [self saveSnapshot:image forViewController:self.topViewController];
         }
